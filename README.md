@@ -1,10 +1,10 @@
 # KBD67 atmel-dfu bootloader
 
-Changing the lufa-ms bootloader on the KBD67 lite RBG ISO Hot-Swap to atmel-dfu.
+Replacing the lufa-ms bootloader on kbdfans boards with atmel-dfu 
 
 ## Introduction
 
-This article will describe the process I went through to get the atmel-dfu bootloader back on my kbd67.
+This article will describe the process I went through to get the atmel-dfu bootloader back on my kbd67 lite r3 ISO hotswap.
 I assume the process is identical or very similar to the other kbdfans PCBs that are being shipped with the lufa-ms bootloader, like kbd67 mkiirgb v3/v4 and kbd75rgb.
 
 Why replace the lufa-ms bootloader in the first place? The method of dragging a hex file to the emulated USB drive may be convenient for some, however both for me and many other users it is very unreliable, which also lead the QMK devs to advise kbdfans against using it. Kbdfans however did it anyways, and I'm personally fed up with it. So let's fix it.
